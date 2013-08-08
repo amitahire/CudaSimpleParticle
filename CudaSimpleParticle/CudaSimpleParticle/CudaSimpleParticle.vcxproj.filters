@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>CUDA</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClass.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGame.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsNode.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsSystem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionTypes.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClass.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGame.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsNode.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionSphere.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="helper_cuda.h" />
+    <ClInclude Include="helper_string.h" />
+    <ClInclude Include="PhysicsSystem.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="ParticleSystem_Kernel.cu">
+      <Filter>CUDA</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Main.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CUDA">
+      <UniqueIdentifier>{9952302e-f61b-4d4a-9af3-6b7c25af00bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{ca10331f-157d-4e77-9144-b6d187f5fc6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{d36d6ea5-aedc-4067-9aa5-7558ed328014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{70c45bbf-9e8b-4973-8eb4-499faa6140dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ParticleManager.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+  </ItemGroup>
+</Project>
