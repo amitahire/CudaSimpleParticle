@@ -30,15 +30,11 @@ Renderer::~Renderer(void)	{
 
 	//Delete Shaders
 	delete heightMapShader;		
-	//delete waterShader;
 	delete skyboxShader;
-	//delete UFOShader;
 	delete particleShader;	
 	delete fontShader;
 	delete sceneShader;
-	//delete debugLightShader;
-	//delete combineShader;
-	//delete pointlightShader;
+
 	currentShader = 0;
 
 	//Delete_Objects
